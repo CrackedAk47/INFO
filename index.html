@@ -138,6 +138,13 @@
             font-family: 'Playfair Display', serif;
         }
         
+        h4 {
+            color: #e91e63;
+            margin: 15px 0 8px;
+            font-size: 1.2rem;
+            font-family: 'Playfair Display', serif;
+        }
+        
         p {
             margin-bottom: 15px;
             font-size: 1.05rem;
@@ -327,6 +334,57 @@
             margin: 15px 0;
             border-left: 4px solid #2196f3;
         }
+        
+        .food-list {
+            margin-bottom: 15px;
+        }
+        
+        .food-category {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.7);
+        }
+        
+        .food {
+            background: #ffebee;
+        }
+        
+        .drink {
+            background: #e3f2fd;
+        }
+        
+        .other {
+            background: #f1f8e9;
+        }
+        
+        .item-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .item {
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.95rem;
+        }
+        
+        .food-item {
+            background: #ffcdd2;
+            color: #c62828;
+        }
+        
+        .drink-item {
+            background: #bbdefb;
+            color: #1565c0;
+        }
+        
+        .other-item {
+            background: #c5e1a5;
+            color: #33691e;
+        }
     </style>
 </head>
 <body>
@@ -359,8 +417,8 @@
                 <h2>Contact & Social</h2>
                 <p class="contact-info"><strong>Number:</strong> +91 77385 71233</p>
                 <p class="contact-info"><strong>Gmail:</strong> aayanao.o119@gmail.com</p>
-                <p><strong>Followers:</strong> 117</p>
-                <p><strong>Following:</strong> 1118</p>
+                <p><strong>Followers:</strong> 118</p>
+                <p><strong>Following:</strong> 1120</p>
             </div>
             
             <div class="section">
@@ -375,19 +433,52 @@
                 <h3>Her Babies:</h3>
                 <p><strong>Luci</strong> (born 12 January)</p>
                 <p><strong>Gracie</strong> (born 8th February)</p>
-                <p><strong>Favorite Animal:</strong> Doggos</p>
+                <p><strong>Favorite Animal:</strong> A WHOLE ASS ZOO ATP</p>
             </div>
             
             <div class="section">
                 <h2>Favorite Things</h2>
                 <h3>Fruits:</h3>
-                <p>Mangoes, watermelon, oranges</p>
+                <p>Mangoes, watermelon, oranges, dragon fruit and pulpy fruit</p>
                 
                 <h3>Music:</h3>
                 <p>Anything except sad or slow</p>
                 
-                <h3>Food & Drinks:</h3>
-                <p>Epigamia yogurt, Hawaiian rumba PLUM, mogu mogu, ramen (Shin ramyun, Knorr K-pot, Buldak, WaiWai), cup noodles spiced chicken spicy chunky chicken, mangoes, pulpy fruits, ice-cream cakes, Quench botanics, blueberry or mocha boba, oranges, dragon fruit, hocco mudslide cone, magnum ice cream, ferrero rocher</p>
+                <h3>Food, Drinks and Others:</h3>
+                
+                <div class="food-category food">
+                    <h4>Food:</h4>
+                    <div class="item-list">
+                        <div class="item food-item">Ramen (Shin ramyun)</div>
+                        <div class="item food-item">Knorr K-pot</div>
+                        <div class="item food-item">Buldak</div>
+                        <div class="item food-item">WaiWai</div>
+                        <div class="item food-item">Cup noodles spiced chicken</div>
+                        <div class="item food-item">Spicy chunky chicken</div>
+                        <div class="item food-item">Ice-cream cakes</div>
+                        <div class="item food-item">Hocco mudslide cone</div>
+                        <div class="item food-item">Magnum ice cream</div>
+                        <div class="item food-item">Ferrero rocher</div>
+                        <div class="item food-item">Epigamia yogurt</div>
+                    </div>
+                </div>
+                
+                <div class="food-category drink">
+                    <h4>Drinks:</h4>
+                    <div class="item-list">
+                        <div class="item drink-item">Blueberry boba</div>
+                        <div class="item drink-item">Mocha boba</div>
+                        <div class="item drink-item">Mogu mogu</div>
+                    </div>
+                </div>
+                
+                <div class="food-category other">
+                    <h4>Other:</h4>
+                    <div class="item-list">
+                        <div class="item other-item">Hawaiian rumba PLUM</div>
+                        <div class="item other-item">Quench botanics</div>
+                    </div>
+                </div>
             </div>
             
             <div class="section">
@@ -479,7 +570,6 @@
                     Her laugh.<br>
                     Her everything<br>
                     Her love<br>
-                    Her<br>
                     Her<br>
                     Her<br>
                     Her<br>
